@@ -17,7 +17,6 @@ function App() {
     <>
       <Router>
         <div className="container">
-          {"ASDASDSADASDAS" + process.env.REACT_APP_API_URL}
           <Header />
           <Routes>
             <Route path="/" element={<Home />}></Route>
