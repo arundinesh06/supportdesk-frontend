@@ -1,5 +1,6 @@
 import axios from "axios";
-const API_URL = "/api/tickets/";
+const API_URL =
+  "https://supportdesk-production-4683.up.railway.app/api/tickets/";
 // Get all notes
 const getNotes = async (ticketId, token) => {
   const config = {
