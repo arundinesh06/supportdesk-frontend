@@ -1,0 +1,4 @@
+/* /index.html 200
+https://supportdesk-production-4683.up.railway.app
+from = "/api/*"
+to = "https://supportdesk-production-4683.up.railway.app/:"

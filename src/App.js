@@ -12,10 +12,12 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
+  const { REACT_APP_API_URL } = process.env;
   return (
     <>
       <Router>
         <div className="container">
+          {"ASDASDSADASDAS" + process.env.REACT_APP_API_URL}
           <Header />
           <Routes>
             <Route path="/" element={<Home />}></Route>

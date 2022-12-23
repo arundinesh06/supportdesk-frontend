@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "proxy": "supportdesk-production-4683.up.railway.app",
+  "proxy": "https://supportdesk-production-4683.up.railway.app",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
